@@ -62,7 +62,6 @@
       <artifactId>sonar-testing-harness</artifactId>
       <version>${sonar.version}</version>
     </dependency>
-
     <dependency>
       <groupId>org.codehaus.sonar.plugins</groupId>
       <artifactId>sonar-l10n-en-plugin</artifactId>
@@ -75,14 +74,12 @@
       <version>${sonar-core.version}</version>
       <scope>test</scope>
     </dependency>
-
     <dependency>
       <groupId>org.codehaus.sonar-plugins.java</groupId>
       <artifactId>sonar-jacoco-plugin</artifactId>
       <version>${sonar-jacoco-plugin.version}</version>
       <scope>test</scope>
     </dependency>
-
   </dependencies>
 
   <developers>
