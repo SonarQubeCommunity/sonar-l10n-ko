@@ -1,11 +1,11 @@
 # SonarQube Korean Language Pack
 
-======
+---
 
 ### Author
 + Moses Kim (<creatinov.kim@gmail.com>)
 
-#### The Latest Versions
+### The Latest Versions
 + [https://github.com/SonarCommunity/sonar-l10n-ko/releases/latest]
 (https://github.com/SonarCommunity/sonar-l10n-ko/releases/latest)
 
@@ -17,7 +17,7 @@ sonar-l10n-ko |1.0       | 1.2 | <-  | <-  | 1.3 | <-  | <-  | <-       |
 ### Download
 Use Update Center or download the plugin into the directory `$SONAR_HOME/extensions/plugins/` then restart the server.
 
-#### All versions
+### All versions
 
 + [https://github.com/SonarCommunity/sonar-l10n-ko/releases]
 (https://github.com/SonarCommunity/sonar-l10n-ko/releases)
