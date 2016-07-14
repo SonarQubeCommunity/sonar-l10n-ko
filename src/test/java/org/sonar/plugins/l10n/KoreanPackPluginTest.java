@@ -22,7 +22,7 @@ package org.sonar.plugins.l10n;
 import org.junit.Test;
 import org.sonar.test.i18n.I18nMatchers;
 
-import static org.fest.assertions.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class KoreanPackPluginTest {
   @Test
