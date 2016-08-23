@@ -10,9 +10,9 @@
 (https://github.com/SonarCommunity/sonar-l10n-ko/releases/latest)
 
 ### Compatibility Matrix
-SonarQube     | 4.5(LTS) | 5.0 | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 | 5.6(LTS) |
---------------|----------|-----|-----|-----|-----|-----|-----|----------|
-sonar-l10n-ko |1.0       | 1.2 | <-  | <-  | <-  | <-  | <-  | 1.3      |
+SonarQube     | 4.5(LTS) | 5.0 | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 | 5.6(LTS) | 6.0 |
+--------------|----------|-----|-----|-----|-----|-----|-----|----------|-----|
+sonar-l10n-ko |1.0       | 1.2 | <-  | <-  | <-  | <-  | <-  | 1.3      | 1.4 |
 
 ### Download
 Use Update Center or download the plugin into the directory `$SONAR_HOME/extensions/plugins/` then restart the server.
