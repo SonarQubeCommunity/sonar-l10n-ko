@@ -5,7 +5,7 @@
   <groupId>org.codehaus.l10n.ko</groupId>
   <artifactId>sonar-l10n-ko-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>1.4.0-RC1</version>
+  <version>1.4.0</version>
 
   <name>L10n :: Korean Pack</name>
   <url>https://github.com/SonarQubeCommunity/sonar-l10n-ko</url>
@@ -13,7 +13,7 @@
   <description><![CDATA[Language Pack for Korean]]></description>
 
   <organization>
-    <name>Creatinov</name>
+    <name>creatinov</name>
     <url>http://moseskim.github.io</url>
   </organization>
 
