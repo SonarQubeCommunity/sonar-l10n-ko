@@ -5,7 +5,7 @@
   <groupId>org.codehaus.l10n.ko</groupId>
   <artifactId>sonar-l10n-ko-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>1.4.0</version>
+  <version>1.5.0</version>
 
   <name>L10n :: Korean Pack</name>
   <url>https://github.com/SonarQubeCommunity/sonar-l10n-ko</url>
@@ -39,19 +39,8 @@
 
   <properties>
     <sonar.pluginClass>org.sonar.plugins.l10n.KoreanPackPlugin</sonar.pluginClass>
-    <sonar.version>6.0</sonar.version>
+    <sonar.version>6.5</sonar.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!-- Versions of the plugin translated by this language pack -->
-    <!--
-    <sonar-jacoco-plugin.version>2.3</sonar-jacoco-plugin.version>
-    <bundle.abacus>0.1</bundle.abacus>
-    <bundle.branding>1.0</bundle.branding>
-    <bundle.core>${sonar.version}</bundle.core>
-    <bundle.jira>1.2</bundle.jira>
-    <bundle.motionchart>1.6</bundle.motionchart>
-    <bundle.violationdensity>1.2</bundle.violationdensity>
-    <bundle.java>2.4</bundle.java>
-    -->
   </properties>
 
   <dependencies>
@@ -72,58 +61,6 @@
       <version>${sonar.version}</version>
       <scope>test</scope>
     </dependency>
-
-<!--
-    # Additional Plugins which are translated by this language pack
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins</groupId>
-      <artifactId>sonar-abacus-plugin</artifactId>
-      <version>${bundle.abacus}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins</groupId>
-      <artifactId>sonar-branding-plugin</artifactId>
-      <version>${bundle.branding}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar.plugins</groupId>
-      <artifactId>sonar-l10n-en-plugin</artifactId>
-      <version>${bundle.core}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins</groupId>
-      <artifactId>sonar-jira-plugin</artifactId>
-      <version>${bundle.jira}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins.java</groupId>
-      <artifactId>java-checks</artifactId>
-      <version>${bundle.java}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins</groupId>
-      <artifactId>sonar-motion-chart-plugin</artifactId>
-      <version>${bundle.motionchart}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins</groupId>
-      <artifactId>sonar-violationdensity-plugin</artifactId>
-      <version>${bundle.violationdensity}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins.java</groupId>
-      <artifactId>sonar-jacoco-plugin</artifactId>
-      <version>${sonar-jacoco-plugin.version}</version>
-      <scope>test</scope>
-    </dependency>
--->
   </dependencies>
 
   <developers>
@@ -138,7 +75,7 @@
       <plugin>
         <groupId>org.sonarsource.sonar-packaging-maven-plugin</groupId>
         <artifactId>sonar-packaging-maven-plugin</artifactId>
-        <version>1.15</version>
+        <version>1.17</version>
         <extensions>true</extensions>
         <configuration>
           <basePlugin>l10nen</basePlugin>
