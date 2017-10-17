@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "moseskim-github"
     token:
-      secure: "1ee9fa447db327642f32bf071f3dcf8bdc729d62"
+      secure: "35b718f092b60500d90ecdacbc76defc41443a76"
 jdk:
   - oraclejdk8
 script:
