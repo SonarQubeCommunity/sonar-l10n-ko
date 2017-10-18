@@ -2,16 +2,15 @@ language: java
 sudo: false
 install: true
 
-addons:
-  sonarcloud:
-    organization: "moseskim-github"
-    token:
-      secure: "35b718f092b60500d90ecdacbc76defc41443a76"
 jdk:
   - oraclejdk8
+
 script:
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+  - mvn verify -B -e -V
+
 cache:
   directories:
     - '$HOME/.m2/repository'
-    - '$HOME/.sonar/cache'
+
+notifications:
+  email: false
