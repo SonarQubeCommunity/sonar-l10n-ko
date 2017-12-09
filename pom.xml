@@ -5,7 +5,7 @@
   <groupId>org.codehaus.l10n.ko</groupId>
   <artifactId>sonar-l10n-ko-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>1.6.0-RC</version>
+  <version>1.6.0</version>
 
   <name>L10n :: Korean Pack</name>
   <url>https://github.com/SonarQubeCommunity/sonar-l10n-ko</url>
