@@ -13,8 +13,10 @@ https://github.com/SonarCommunity/sonar-l10n-ko/releases/latest
 
 ### Compatibility Matrix
 
-| SonarQube     | 6.0      | 6.1 | 6.2 | 6.3 | 6.4 | 6.5   | 6.6      | 6.7(LTS) |
+| SonarQube     | 7.0      |     |     |     |     |       |          |          |
 |---------------|----------|-----|-----|-----|-----|-------|----------|----------|
+| sonar-l10n-ko | 1.7      |     |     |     |     |       |          |          |
+| SonarQube     | 6.0      | 6.1 | 6.2 | 6.3 | 6.4 | 6.5   | 6.6      | 6.7(LTS) |
 | sonar-l10n-ko | 1.4      | <-  | <-  | <-  | <-  | 1.5.1 | <-       | 1.6      |
 | SonarQube     | 5.0      | 5.1 | 5.2 | 5.3 | 5.4 | 5.5   | 5.6(LTS) |          |
 | sonar-l10n-ko | 1.2      | <-  | <-  | <-  | <-  | <-    | 1.3      |          |
@@ -46,7 +48,7 @@ https://github.com/SonarCommunity/sonar-l10n-ko/issues
 
 ### Contribution
 
-Contribution is always welcomed. 
+Contribution is always welcomed.
 - Fork this repository to your local account.
 - Make enhancement
 - Make pull request to this repository  
