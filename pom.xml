@@ -5,12 +5,12 @@
   <groupId>org.codehaus.l10n.ko</groupId>
   <artifactId>sonar-l10n-ko-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>1.7.0</version>
+  <version>1.8.0</version>
 
   <name>L10n :: Korean Pack</name>
   <url>https://github.com/SonarQubeCommunity/sonar-l10n-ko</url>
   <inceptionYear>2015</inceptionYear>
-  <description><![CDATA[Language Pack for Korean]]></description>
+  <description>Language Pack for Korean</description>
 
   <organization>
     <name>creatinov</name>
@@ -39,7 +39,7 @@
 
   <properties>
     <sonar.pluginClass>org.sonar.plugins.l10n.KoreanPackPlugin</sonar.pluginClass>
-    <sonar.version>7.0</sonar.version>
+    <sonar.version>8.3.0.34182</sonar.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -61,6 +61,13 @@
       <version>${sonar.version}</version>
       <scope>test</scope>
     </dependency>
+    <!-- TODO: sonar-testing-harness 8.1.0 missing hamcrest-core version -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <developers>
@@ -80,7 +87,7 @@
         <configuration>
           <basePlugin>l10nen</basePlugin>
           <pluginName>Korean Pack</pluginName>
-          <pluginDescription><![CDATA[Language pack for Korean]]></pluginDescription>
+          <pluginDescription>Language pack for Korean</pluginDescription>
         </configuration>
       </plugin>
 
