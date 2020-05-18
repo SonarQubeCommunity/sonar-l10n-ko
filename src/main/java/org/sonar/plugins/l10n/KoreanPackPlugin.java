@@ -19,13 +19,14 @@
  */
 package org.sonar.plugins.l10n;
 
-import org.sonar.api.SonarPlugin;
-
 import java.util.Collections;
 import java.util.List;
 
+import org.sonar.api.SonarPlugin;
+
 public final class KoreanPackPlugin extends SonarPlugin {
 
+  @Override
   public List getExtensions() {
     return Collections.emptyList();
   }
