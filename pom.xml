@@ -74,6 +74,10 @@
       <id>creatinov.kim</id>
       <name>Moses Kim</name>
     </developer>
+    <developer>
+      <id>wicksome</id>
+      <name>Yeongjun Kim</name>
+    </developer>
   </developers>
 
   <build>
