@@ -5,7 +5,7 @@
   <groupId>org.codehaus.l10n.ko</groupId>
   <artifactId>sonar-l10n-ko-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>1.8.0</version>
+  <version>8.7</version>
 
   <name>L10n :: Korean Pack</name>
   <url>https://github.com/SonarQubeCommunity/sonar-l10n-ko</url>
@@ -61,7 +61,6 @@
       <version>${sonar.version}</version>
       <scope>test</scope>
     </dependency>
-    <!-- TODO: sonar-testing-harness 8.1.0 missing hamcrest-core version -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -74,6 +73,10 @@
     <developer>
       <id>creatinov.kim</id>
       <name>Moses Kim</name>
+    </developer>
+    <developer>
+      <id>wicksome</id>
+      <name>Yeongjun Kim</name>
     </developer>
   </developers>
 
